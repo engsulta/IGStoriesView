@@ -1,8 +1,10 @@
 language: swift
 
 osx_image: xcode12
-
+xcode_project: IGStoriesView.xcodeproj
+xcode_scheme: IGStoriesView
+xcode_destination: platform=iOS Simulator,OS=14,name=iPhpone 11 Pro
 script:
-  - xcodebuild test -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 11,OS=14'
+  - xcodebuild test -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk iphonesimulator14.0 -destination 'platform=iOS Simulator,name=iPhone 11,OS=14'
 after_success:
   - bash <(curl -s https://codecov.io/bash) -t 1e04617f-5c2e-4ffc-91d6-9544a9e9302b

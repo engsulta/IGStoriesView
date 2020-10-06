@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		350A3A24252CCDF30017EB6C /* IGStoriesView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350A3A1A252CCDF30017EB6C /* IGStoriesView.framework */; };
 		350A3A29252CCDF30017EB6C /* IGStoriesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */; };
-		350A3A2B252CCDF40017EB6C /* IGStoriesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 350A3A1D252CCDF30017EB6C /* IGStoriesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		350A3A3D252CED0C0017EB6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A3C252CED0C0017EB6C /* AppDelegate.swift */; };
 		350A3A41252CED0C0017EB6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A40252CED0C0017EB6C /* ViewController.swift */; };
 		350A3A44252CED0C0017EB6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A42252CED0C0017EB6C /* Main.storyboard */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		350A3A1A252CCDF30017EB6C /* IGStoriesView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGStoriesView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		350A3A1D252CCDF30017EB6C /* IGStoriesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGStoriesView.h; sourceTree = "<group>"; };
 		350A3A1E252CCDF30017EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		350A3A23252CCDF30017EB6C /* IGStoriesViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGStoriesViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGStoriesViewTests.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		350A3A1C252CCDF30017EB6C /* IGStoriesView */ = {
 			isa = PBXGroup;
 			children = (
-				350A3A1D252CCDF30017EB6C /* IGStoriesView.h */,
 				350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */,
 				350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */,
 				350A3A60252D18BB0017EB6C /* IGRoundedView.swift */,
@@ -163,7 +160,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				350A3A2B252CCDF40017EB6C /* IGStoriesView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
