@@ -4,10 +4,8 @@ osx_image: xcode12
 
 xcode_project: IGStoriesView.xcodeproj # path to your xcodeproj folder
 xcode_scheme: IGStoriesView
-xcode_destination: platform=iOS Simulator,OS=14,name=iPhpone 11 Pro
-
+xcode_destination: platform=iOS Simulator,OS=14,name=iPhponeX
 script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+  - xcodebuild -scheme IGStoriesView -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=14' build test
 after_success:
-  - slather
   - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
