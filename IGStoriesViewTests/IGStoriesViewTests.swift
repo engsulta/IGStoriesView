@@ -1,5 +1,5 @@
 //
-//  IGStoriesViewTests.swift
+//  StoriesCarViewTests.swift
 //  IGStoriesViewTests
 //
 //  Created by Ahmed Sultan on 10/6/20.
@@ -8,26 +8,24 @@
 import XCTest
 @testable import IGStoriesView
 
-class IGStoriesViewTests: XCTestCase {
+class StoriesCardViewTests: XCTestCase {
+    var cardView: StoriesCardView!
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        super.setUp()
+        let allStories:[StoriesViewModel] = [
+            StoriesViewModel(image: "ahmed", name: "Your Story", isSeen: false,userId: "1"),
+            StoriesViewModel(image: "ahmed", name: "ahmed hamza",isSeen: false,userId: "2"),
+            StoriesViewModel(image: "ahmed", name: "ahmed hamza",isSeen: false,userId: "3"),
+            StoriesViewModel(image: "ahmed", name: "ahmed seen", isSeen: false,userId: "4"),
+            StoriesViewModel(image: "ahmed", name: "ahmed hamza",isSeen: false,userId: "5"),
+            StoriesViewModel(image: "ahmed", name: "ahmed hamza",isSeen: true ,userId: "6")
+        ]
+        cardView = StoriesCardView(frame: .zero)
+        cardView.storiesViewModels = allStories
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCardView() {
+        cardView.setupStoriesCollectionView()
     }
 
 }
