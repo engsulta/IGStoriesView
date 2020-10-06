@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: IGStoriesView.xcodeproj
+scheme: IGStoriesView
+output_directory: reports
+ignore:
+  - IGStoriesViewTests/*
