@@ -10,6 +10,29 @@
 		350A3A24252CCDF30017EB6C /* IGStoriesView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350A3A1A252CCDF30017EB6C /* IGStoriesView.framework */; };
 		350A3A29252CCDF30017EB6C /* IGStoriesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */; };
 		350A3A2B252CCDF40017EB6C /* IGStoriesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 350A3A1D252CCDF30017EB6C /* IGStoriesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		350A3A3D252CED0C0017EB6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A3C252CED0C0017EB6C /* AppDelegate.swift */; };
+		350A3A41252CED0C0017EB6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A40252CED0C0017EB6C /* ViewController.swift */; };
+		350A3A44252CED0C0017EB6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A42252CED0C0017EB6C /* Main.storyboard */; };
+		350A3A46252CED0E0017EB6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A45252CED0E0017EB6C /* Assets.xcassets */; };
+		350A3A49252CED0E0017EB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A47252CED0E0017EB6C /* LaunchScreen.storyboard */; };
+		350A3A62252D18BB0017EB6C /* AddStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */; };
+		350A3A63252D18BB0017EB6C /* StoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */; };
+		350A3A64252D18BB0017EB6C /* StoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */; };
+		350A3A65252D18BB0017EB6C /* StoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */; };
+		350A3A66252D18BB0017EB6C /* StoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */; };
+		350A3A67252D18BB0017EB6C /* InstagramBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */; };
+		350A3A68252D18BB0017EB6C /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A60252D18BB0017EB6C /* IGRoundedView.swift */; };
+		350A3A69252D18BB0017EB6C /* AddStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */; };
+		350A3A71252D19750017EB6C /* UIView+Xibsetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A70252D19750017EB6C /* UIView+Xibsetup.swift */; };
+		350A3A75252D1AA40017EB6C /* StoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */; };
+		350A3A79252D1B350017EB6C /* UIView+Xibsetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A70252D19750017EB6C /* UIView+Xibsetup.swift */; };
+		350A3A7D252D1B540017EB6C /* AddStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */; };
+		350A3A81252D1B670017EB6C /* StoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */; };
+		350A3A85252D1B7A0017EB6C /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A60252D18BB0017EB6C /* IGRoundedView.swift */; };
+		350A3A89252D1B810017EB6C /* AddStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */; };
+		350A3A8D252D1B860017EB6C /* InstagramBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */; };
+		350A3A91252D1B8C0017EB6C /* StoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */; };
+		350A3A95252D1B920017EB6C /* StoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +52,22 @@
 		350A3A23252CCDF30017EB6C /* IGStoriesViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGStoriesViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGStoriesViewTests.swift; sourceTree = "<group>"; };
 		350A3A2A252CCDF40017EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350A3A3A252CED0C0017EB6C /* StoriesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoriesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350A3A3C252CED0C0017EB6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		350A3A40252CED0C0017EB6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		350A3A43252CED0C0017EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		350A3A45252CED0E0017EB6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350A3A48252CED0E0017EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		350A3A4A252CED0E0017EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCardView.swift; sourceTree = "<group>"; };
+		350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoriesCollectionViewCell.xib; sourceTree = "<group>"; };
+		350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoriesCardView.xib; sourceTree = "<group>"; };
+		350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramBorder.swift; sourceTree = "<group>"; };
+		350A3A60252D18BB0017EB6C /* IGRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGRoundedView.swift; sourceTree = "<group>"; };
+		350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddStoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		350A3A70252D19750017EB6C /* UIView+Xibsetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Xibsetup.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		350A3A37252CED0C0017EB6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +101,7 @@
 			children = (
 				350A3A1C252CCDF30017EB6C /* IGStoriesView */,
 				350A3A27252CCDF30017EB6C /* IGStoriesViewTests */,
+				350A3A3B252CED0C0017EB6C /* StoriesExample */,
 				350A3A1B252CCDF30017EB6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +111,7 @@
 			children = (
 				350A3A1A252CCDF30017EB6C /* IGStoriesView.framework */,
 				350A3A23252CCDF30017EB6C /* IGStoriesViewTests.xctest */,
+				350A3A3A252CED0C0017EB6C /* StoriesExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,7 +120,16 @@
 			isa = PBXGroup;
 			children = (
 				350A3A1D252CCDF30017EB6C /* IGStoriesView.h */,
+				350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */,
+				350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */,
+				350A3A60252D18BB0017EB6C /* IGRoundedView.swift */,
+				350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */,
+				350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */,
+				350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */,
+				350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */,
+				350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */,
 				350A3A1E252CCDF30017EB6C /* Info.plist */,
+				350A3A70252D19750017EB6C /* UIView+Xibsetup.swift */,
 			);
 			path = IGStoriesView;
 			sourceTree = "<group>";
@@ -84,6 +141,19 @@
 				350A3A2A252CCDF40017EB6C /* Info.plist */,
 			);
 			path = IGStoriesViewTests;
+			sourceTree = "<group>";
+		};
+		350A3A3B252CED0C0017EB6C /* StoriesExample */ = {
+			isa = PBXGroup;
+			children = (
+				350A3A3C252CED0C0017EB6C /* AppDelegate.swift */,
+				350A3A40252CED0C0017EB6C /* ViewController.swift */,
+				350A3A42252CED0C0017EB6C /* Main.storyboard */,
+				350A3A45252CED0E0017EB6C /* Assets.xcassets */,
+				350A3A47252CED0E0017EB6C /* LaunchScreen.storyboard */,
+				350A3A4A252CED0E0017EB6C /* Info.plist */,
+			);
+			path = StoriesExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +206,23 @@
 			productReference = 350A3A23252CCDF30017EB6C /* IGStoriesViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		350A3A39252CED0C0017EB6C /* StoriesExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350A3A4B252CED0E0017EB6C /* Build configuration list for PBXNativeTarget "StoriesExample" */;
+			buildPhases = (
+				350A3A36252CED0C0017EB6C /* Sources */,
+				350A3A37252CED0C0017EB6C /* Frameworks */,
+				350A3A38252CED0C0017EB6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoriesExample;
+			productName = StoriesExample;
+			productReference = 350A3A3A252CED0C0017EB6C /* StoriesExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +234,12 @@
 				TargetAttributes = {
 					350A3A19252CCDF30017EB6C = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
 					};
 					350A3A22252CCDF30017EB6C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					350A3A39252CED0C0017EB6C = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -168,6 +259,7 @@
 			targets = (
 				350A3A19252CCDF30017EB6C /* IGStoriesView */,
 				350A3A22252CCDF30017EB6C /* IGStoriesViewTests */,
+				350A3A39252CED0C0017EB6C /* StoriesExample */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350A3A69252D18BB0017EB6C /* AddStoryCollectionViewCell.xib in Resources */,
+				350A3A66252D18BB0017EB6C /* StoriesCardView.xib in Resources */,
+				350A3A64252D18BB0017EB6C /* StoriesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +282,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		350A3A38252CED0C0017EB6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350A3A89252D1B810017EB6C /* AddStoryCollectionViewCell.xib in Resources */,
+				350A3A91252D1B8C0017EB6C /* StoriesCardView.xib in Resources */,
+				350A3A95252D1B920017EB6C /* StoriesCollectionViewCell.xib in Resources */,
+				350A3A49252CED0E0017EB6C /* LaunchScreen.storyboard in Resources */,
+				350A3A46252CED0E0017EB6C /* Assets.xcassets in Resources */,
+				350A3A44252CED0C0017EB6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350A3A67252D18BB0017EB6C /* InstagramBorder.swift in Sources */,
+				350A3A65252D18BB0017EB6C /* StoriesCollectionViewCell.swift in Sources */,
+				350A3A71252D19750017EB6C /* UIView+Xibsetup.swift in Sources */,
+				350A3A63252D18BB0017EB6C /* StoriesCardView.swift in Sources */,
+				350A3A62252D18BB0017EB6C /* AddStoryCollectionViewCell.swift in Sources */,
+				350A3A68252D18BB0017EB6C /* IGRoundedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +316,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				350A3A29252CCDF30017EB6C /* IGStoriesViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350A3A36252CED0C0017EB6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350A3A81252D1B670017EB6C /* StoriesCollectionViewCell.swift in Sources */,
+				350A3A79252D1B350017EB6C /* UIView+Xibsetup.swift in Sources */,
+				350A3A41252CED0C0017EB6C /* ViewController.swift in Sources */,
+				350A3A3D252CED0C0017EB6C /* AppDelegate.swift in Sources */,
+				350A3A8D252D1B860017EB6C /* InstagramBorder.swift in Sources */,
+				350A3A85252D1B7A0017EB6C /* IGRoundedView.swift in Sources */,
+				350A3A7D252D1B540017EB6C /* AddStoryCollectionViewCell.swift in Sources */,
+				350A3A75252D1AA40017EB6C /* StoriesCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +343,25 @@
 			targetProxy = 350A3A25252CCDF30017EB6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		350A3A42252CED0C0017EB6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350A3A43252CED0C0017EB6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		350A3A47252CED0E0017EB6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				350A3A48252CED0E0017EB6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		350A3A2C252CCDF40017EB6C /* Debug */ = {
@@ -268,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +489,7 @@
 		350A3A2F252CCDF40017EB6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = X78LL62Y2P;
@@ -357,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hamza.dev.IGStoriesView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +515,7 @@
 		350A3A30252CCDF40017EB6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = X78LL62Y2P;
@@ -389,6 +540,7 @@
 		350A3A32252CCDF40017EB6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X78LL62Y2P;
 				INFOPLIST_FILE = IGStoriesViewTests/Info.plist;
@@ -407,6 +559,7 @@
 		350A3A33252CCDF40017EB6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X78LL62Y2P;
 				INFOPLIST_FILE = IGStoriesViewTests/Info.plist;
@@ -416,6 +569,46 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hamza.dev.IGStoriesViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		350A3A4C252CED0E0017EB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X78LL62Y2P;
+				INFOPLIST_FILE = StoriesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.dev.StoriesExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350A3A4D252CED0E0017EB6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X78LL62Y2P;
+				INFOPLIST_FILE = StoriesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hamza.dev.StoriesExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +641,15 @@
 			buildConfigurations = (
 				350A3A32252CCDF40017EB6C /* Debug */,
 				350A3A33252CCDF40017EB6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350A3A4B252CED0E0017EB6C /* Build configuration list for PBXNativeTarget "StoriesExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350A3A4C252CED0E0017EB6C /* Debug */,
+				350A3A4D252CED0E0017EB6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

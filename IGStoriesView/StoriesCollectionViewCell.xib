@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="StoriesCollectionViewCell" customModule="R_D" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ol-XN-ARe">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpB-R4-zKd" customClass="IGRoundedView" customModule="R_D" customModuleProvider="target">
+                                <rect key="frame" x="7.5" y="8" width="75" height="75"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="FVa-Z0-2W9"/>
+                                    <constraint firstAttribute="width" secondItem="cpB-R4-zKd" secondAttribute="height" multiplier="1:1" id="WhX-E2-Y0y"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="gradeintStartColor">
+                                        <color key="value" systemColor="systemPurpleColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="gradeintEndColor">
+                                        <color key="value" systemColor="systemOrangeColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ahmed"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="imageBorderShift">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrI-lO-K21">
+                                <rect key="frame" x="2.5" y="93" width="85" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21.5" id="sdS-3z-Hk3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TrI-lO-K21" firstAttribute="top" secondItem="cpB-R4-zKd" secondAttribute="bottom" constant="10" id="6mW-iZ-g2O"/>
+                            <constraint firstItem="cpB-R4-zKd" firstAttribute="top" secondItem="1Ol-XN-ARe" secondAttribute="top" constant="8" id="RY7-n2-2IK"/>
+                            <constraint firstItem="TrI-lO-K21" firstAttribute="leading" secondItem="cpB-R4-zKd" secondAttribute="leading" constant="-5" id="Uwf-Ry-k4M"/>
+                            <constraint firstItem="TrI-lO-K21" firstAttribute="trailing" secondItem="cpB-R4-zKd" secondAttribute="trailing" constant="5" id="gg5-0g-04P"/>
+                            <constraint firstItem="cpB-R4-zKd" firstAttribute="centerX" secondItem="1Ol-XN-ARe" secondAttribute="centerX" id="sXi-E4-deg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1Ol-XN-ARe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MtU-kD-YoP"/>
+                <constraint firstAttribute="trailing" secondItem="1Ol-XN-ARe" secondAttribute="trailing" id="ODf-0A-Ih5"/>
+                <constraint firstAttribute="bottom" secondItem="1Ol-XN-ARe" secondAttribute="bottom" id="Qcz-Bh-1OL"/>
+                <constraint firstItem="1Ol-XN-ARe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="g0Q-fU-Rq0"/>
+            </constraints>
+            <size key="customSize" width="108" height="139"/>
+            <connections>
+                <outlet property="roundedView" destination="cpB-R4-zKd" id="VEM-Rs-u6e"/>
+                <outlet property="storyOwnerName" destination="TrI-lO-K21" id="4cv-ko-afE"/>
+            </connections>
+            <point key="canvasLocation" x="-81.159420289855078" y="93.75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ahmed" width="2837" height="3782"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
