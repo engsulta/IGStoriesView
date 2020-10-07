@@ -1,11 +1,14 @@
-language: swift
+language: objective-c
 
-osx_image: xcode11.6
+osx_image: xcode10.1
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
+    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
 
-xcode_project: IGStoriesView.xcodeproj
-xcode_scheme: IGStoriesView
-xcode_sdk: iphonesimulator13.6 #5
 script:
-  - set -o pipefail && xcodebuild -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk iphonesimulator13.6 build test ONLY_ACTIVE_ARCH=YES
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t 1e04617f-5c2e-4ffc-91d6-9544a9e9302b
+  - slather
+  - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
