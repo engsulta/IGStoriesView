@@ -3,7 +3,7 @@ language: objective-c
 osx_image: xcode12
 env:
   matrix:
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
+    - TEST_SDK=iphonesimulator14.0 OS=14 NAME='iPhone 11'
 
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project IGStoriesView.xcodeproj -scheme IGStoriesView -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
