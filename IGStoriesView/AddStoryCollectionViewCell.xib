@@ -4,13 +4,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="AddStoryCollectionViewCell" customModule="R_D" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="AddStoryCollectionViewCell" customModule="ExampleApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -20,7 +21,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDJ-sF-av8">
                         <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
                         <subviews>
-                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-Re-Npp" customClass="IGRoundedView" customModule="R_D" customModuleProvider="target">
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="SYb-Re-Npp" customClass="IGRoundedView" customModule="ExampleApp" customModuleProvider="target">
                                 <rect key="frame" x="7.5" y="8" width="75" height="75"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -40,15 +41,16 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="gradeintEndColor">
                                         <color key="value" systemColor="systemOrangeColor"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ahmed"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="profile"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="imageBorderShift">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LlE-I8-me7" customClass="IGRoundedView" customModule="R_D" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LlE-I8-me7" customClass="IGRoundedView" customModule="ExampleApp" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="63" width="20" height="20"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="I2T-2U-qEJ"/>
                                     <constraint firstAttribute="height" constant="20" id="gCY-WO-76q"/>
@@ -69,7 +71,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="imageBorderShift">
                                         <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="red"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image">
+                                        <imageReference key="value" image="plus.circle.fill" catalog="system" renderingMode="template"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkf-dl-0ZF">
@@ -111,8 +115,8 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="ahmed" width="2837" height="3782"/>
-        <image name="red" width="5208" height="3472"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="profile" width="694" height="794"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

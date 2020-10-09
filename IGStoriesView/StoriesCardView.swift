@@ -12,7 +12,7 @@ public protocol StoriesCollectionViewActionsDelegate: class {
     func collectionView(_ collectionView: UICollectionView, didSelect userId: String?)
 }
 
-public struct StoriesViewModel {
+public struct IGStoriesViewModel {
     var image: String?
     var name: String?
     var isSeen: Bool?
@@ -31,7 +31,7 @@ public class StoriesCardView: UIView {
     weak var delegate: StoriesCollectionViewActionsDelegate?
     var didOpenUserStory: ((Int64?) -> Void)?
 
-    public var storiesViewModels: [StoriesViewModel] = [] {
+    public var storiesViewModels: [IGStoriesViewModel] = [] {
         didSet {
             storiesCollectionView?.performBatchUpdates({ [weak self] in
                 let indexSet = IndexSet(integer: 0)

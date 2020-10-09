@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QMs-n1-fiy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hK7-OZ-rkt" customClass="StoriesCardView" customModule="ExampleApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="414" height="130"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="130"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="v1O-X5-5kS"/>
@@ -32,13 +33,32 @@
                             <constraint firstItem="hK7-OZ-rkt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oK2-0Y-UHI"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="p3c-uL-2Uj"/>
                     <connections>
                         <outlet property="storyCardView" destination="hK7-OZ-rkt" id="PeT-bf-nhd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22" y="47"/>
+            <point key="canvasLocation" x="931.88405797101461" y="46.875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Vry-C2-wqK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QMs-n1-fiy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hzs-kM-3ha">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="J1w-XV-k0i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNP-FA-Qql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="46.875"/>
         </scene>
     </scenes>
     <resources>

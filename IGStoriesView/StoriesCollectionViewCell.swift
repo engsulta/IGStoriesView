@@ -14,7 +14,7 @@ class StoriesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var storyOwnerName: UILabel!
 
 
-    var viewModel: StoriesViewModel? {
+    var viewModel: IGStoriesViewModel? {
         didSet {
             storyOwnerName.text = viewModel?.name
             roundedView.imageView.image = UIImage(named: viewModel?.image ?? "")

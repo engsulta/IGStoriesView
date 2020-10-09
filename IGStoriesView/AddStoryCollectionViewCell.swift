@@ -14,9 +14,6 @@ class AddStoryCollectionViewCell: StoriesCollectionViewCell {
    
     override func awakeFromNib() {
         super.awakeFromNib()
-        let image = UIImage(named: "red")
-        plusView.image = image
-        plusView.imageView.tintColor = .orange
     }
 
 }
