@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol StoriesCollectionViewActionsDelegate: class {
+public protocol IGStoriesCollectionViewActionsDelegate: class {
     func collectionView(_ collectionView: UICollectionView, didSelect userId: String?)
 }
 
@@ -28,7 +28,7 @@ public class IGStoriesCardView: UIView {
     let addStoryCellNibName = "IGAddStoryCollectionViewCell"
     let storiesCellId = "storiesCellId"
     let addStoryCellId = "addStoryCellId"
-    weak var delegate: StoriesCollectionViewActionsDelegate?
+    weak var delegate: IGStoriesCollectionViewActionsDelegate?
     var didOpenUserStory: ((Int64?) -> Void)?
 
     public var storiesViewModels: [IGStoriesViewModel] = [] {

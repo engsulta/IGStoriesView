@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: StoriesCollectionViewActionsDelegate {
+extension ViewController: IGStoriesCollectionViewActionsDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelect userId: String?) {
         // present your story here
     }
