@@ -58,4 +58,4 @@ extension ViewController: IGStoriesCollectionViewActionsDelegate {
 ```
  That's all you should see 
 
-![](images/1.png){: style="width:250px"}
+![](images/2.gif){: style="width:250px"}
