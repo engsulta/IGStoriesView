@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "IGStoriesView"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "IGStoriesView is a timeline stories card view"
   spec.description  = <<-DESC
   This CocoaPods library helps you integrate timeline stories card with designable view way so you can change layout of border using Interface builder easily.
