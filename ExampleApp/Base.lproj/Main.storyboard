@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,34 +11,34 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StoriesExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXS-30-F0n" customClass="StoriesCardView" customModule="IGStoriesView">
-                                <rect key="frame" x="0.0" y="60" width="414" height="120"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hK7-OZ-rkt" customClass="StoriesCardView" customModule="ExampleApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="414" height="130"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="lMS-Q5-tPE"/>
+                                    <constraint firstAttribute="height" constant="130" id="v1O-X5-5kS"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wXS-30-F0n" secondAttribute="trailing" id="1Er-xF-cUZ"/>
-                            <constraint firstItem="wXS-30-F0n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Odw-aP-qB8"/>
-                            <constraint firstItem="wXS-30-F0n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="cBw-gD-I1D"/>
+                            <constraint firstItem="hK7-OZ-rkt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cOb-jU-5Vz"/>
+                            <constraint firstItem="hK7-OZ-rkt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ish-z3-nHa"/>
+                            <constraint firstItem="hK7-OZ-rkt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oK2-0Y-UHI"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="storyCardView" destination="wXS-30-F0n" id="hVc-Vk-SAn"/>
+                        <outlet property="storyCardView" destination="hK7-OZ-rkt" id="PeT-bf-nhd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-329" y="94"/>
+            <point key="canvasLocation" x="22" y="47"/>
         </scene>
     </scenes>
     <resources>
