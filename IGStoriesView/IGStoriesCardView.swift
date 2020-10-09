@@ -19,11 +19,11 @@ public struct IGStoriesViewModel {
     var userId: String?
 }
 
-public class StoriesCardView: UIView {
+public class IGStoriesCardView: UIView {
 
     @IBOutlet weak var storiesCollectionView: UICollectionView!
     @IBOutlet var contentView: UIView!
-    let nibName = "StoriesCardView"
+    let nibName = "IGStoriesCardView"
     let storiesCellNibName = "StoriesCollectionViewCell"
     let addStoryCellNibName = "AddStoryCollectionViewCell"
     let storiesCellId = "storiesCellId"
@@ -80,7 +80,7 @@ public class StoriesCardView: UIView {
 }
 
 
-extension StoriesCardView: UICollectionViewDataSource {
+extension IGStoriesCardView: UICollectionViewDataSource {
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         storiesViewModels.count
     }
@@ -104,7 +104,7 @@ extension StoriesCardView: UICollectionViewDataSource {
     }
 }
 
-extension StoriesCardView: UICollectionViewDelegate {
+extension IGStoriesCardView: UICollectionViewDelegate {
     public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         delegate?.collectionView(collectionView, didSelect: storiesViewModels[indexPath.row].userId)
     }

@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var storyCardView: StoriesCardView!
+    @IBOutlet weak var storyCardView: IGStoriesCardView!
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Timeline"

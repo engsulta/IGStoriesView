@@ -10,10 +10,10 @@
 		350A3A24252CCDF30017EB6C /* IGStoriesView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350A3A1A252CCDF30017EB6C /* IGStoriesView.framework */; };
 		350A3A29252CCDF30017EB6C /* IGStoriesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */; };
 		350A3A62252D18BB0017EB6C /* AddStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */; };
-		350A3A63252D18BB0017EB6C /* StoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */; };
+		350A3A63252D18BB0017EB6C /* IGStoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* IGStoriesCardView.swift */; };
 		350A3A64252D18BB0017EB6C /* StoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */; };
 		350A3A65252D18BB0017EB6C /* StoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */; };
-		350A3A66252D18BB0017EB6C /* StoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */; };
+		350A3A66252D18BB0017EB6C /* IGStoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* IGStoriesCardView.xib */; };
 		350A3A67252D18BB0017EB6C /* InstagramBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */; };
 		350A3A68252D18BB0017EB6C /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A60252D18BB0017EB6C /* IGRoundedView.swift */; };
 		350A3A69252D18BB0017EB6C /* AddStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */; };
@@ -27,8 +27,8 @@
 		35D31F572530B8940024E7A5 /* AddStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */; };
 		35D31F5B2530B8980024E7A5 /* IGRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A60252D18BB0017EB6C /* IGRoundedView.swift */; };
 		35D31F5F2530B89B0024E7A5 /* InstagramBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */; };
-		35D31F632530B89E0024E7A5 /* StoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */; };
-		35D31F672530B8A20024E7A5 /* StoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */; };
+		35D31F632530B89E0024E7A5 /* IGStoriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5B252D18BB0017EB6C /* IGStoriesCardView.swift */; };
+		35D31F672530B8A20024E7A5 /* IGStoriesCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5E252D18BB0017EB6C /* IGStoriesCardView.xib */; };
 		35D31F6B2530B8A60024E7A5 /* StoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */; };
 		35D31F6F2530B8AA0024E7A5 /* StoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */; };
 		35D31F732530B8AF0024E7A5 /* UIView+Xibsetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350A3A70252D19750017EB6C /* UIView+Xibsetup.swift */; };
@@ -51,10 +51,10 @@
 		350A3A28252CCDF30017EB6C /* IGStoriesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGStoriesViewTests.swift; sourceTree = "<group>"; };
 		350A3A2A252CCDF40017EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		350A3A5A252D18BB0017EB6C /* AddStoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCardView.swift; sourceTree = "<group>"; };
+		350A3A5B252D18BB0017EB6C /* IGStoriesCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGStoriesCardView.swift; sourceTree = "<group>"; };
 		350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoriesCollectionViewCell.xib; sourceTree = "<group>"; };
 		350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesCollectionViewCell.swift; sourceTree = "<group>"; };
-		350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoriesCardView.xib; sourceTree = "<group>"; };
+		350A3A5E252D18BB0017EB6C /* IGStoriesCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IGStoriesCardView.xib; sourceTree = "<group>"; };
 		350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramBorder.swift; sourceTree = "<group>"; };
 		350A3A60252D18BB0017EB6C /* IGRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGRoundedView.swift; sourceTree = "<group>"; };
 		350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddStoryCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 				350A3A61252D18BB0017EB6C /* AddStoryCollectionViewCell.xib */,
 				350A3A60252D18BB0017EB6C /* IGRoundedView.swift */,
 				350A3A5F252D18BB0017EB6C /* InstagramBorder.swift */,
-				350A3A5B252D18BB0017EB6C /* StoriesCardView.swift */,
-				350A3A5E252D18BB0017EB6C /* StoriesCardView.xib */,
+				350A3A5B252D18BB0017EB6C /* IGStoriesCardView.swift */,
+				350A3A5E252D18BB0017EB6C /* IGStoriesCardView.xib */,
 				350A3A5D252D18BB0017EB6C /* StoriesCollectionViewCell.swift */,
 				350A3A5C252D18BB0017EB6C /* StoriesCollectionViewCell.xib */,
 				350A3A1E252CCDF30017EB6C /* Info.plist */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				350A3A69252D18BB0017EB6C /* AddStoryCollectionViewCell.xib in Resources */,
-				350A3A66252D18BB0017EB6C /* StoriesCardView.xib in Resources */,
+				350A3A66252D18BB0017EB6C /* IGStoriesCardView.xib in Resources */,
 				350A3A64252D18BB0017EB6C /* StoriesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D31F572530B8940024E7A5 /* AddStoryCollectionViewCell.xib in Resources */,
-				35D31F672530B8A20024E7A5 /* StoriesCardView.xib in Resources */,
+				35D31F672530B8A20024E7A5 /* IGStoriesCardView.xib in Resources */,
 				35D31F6F2530B8AA0024E7A5 /* StoriesCollectionViewCell.xib in Resources */,
 				35D31F3D2530B7650024E7A5 /* LaunchScreen.storyboard in Resources */,
 				35D31F3A2530B7650024E7A5 /* Assets.xcassets in Resources */,
@@ -301,7 +301,7 @@
 				350A3A67252D18BB0017EB6C /* InstagramBorder.swift in Sources */,
 				350A3A65252D18BB0017EB6C /* StoriesCollectionViewCell.swift in Sources */,
 				350A3A71252D19750017EB6C /* UIView+Xibsetup.swift in Sources */,
-				350A3A63252D18BB0017EB6C /* StoriesCardView.swift in Sources */,
+				350A3A63252D18BB0017EB6C /* IGStoriesCardView.swift in Sources */,
 				350A3A62252D18BB0017EB6C /* AddStoryCollectionViewCell.swift in Sources */,
 				350A3A68252D18BB0017EB6C /* IGRoundedView.swift in Sources */,
 			);
@@ -324,7 +324,7 @@
 				35D31F6B2530B8A60024E7A5 /* StoriesCollectionViewCell.swift in Sources */,
 				35D31F312530B7630024E7A5 /* AppDelegate.swift in Sources */,
 				35D31F5F2530B89B0024E7A5 /* InstagramBorder.swift in Sources */,
-				35D31F632530B89E0024E7A5 /* StoriesCardView.swift in Sources */,
+				35D31F632530B89E0024E7A5 /* IGStoriesCardView.swift in Sources */,
 				35D31F5B2530B8980024E7A5 /* IGRoundedView.swift in Sources */,
 				35D31F732530B8AF0024E7A5 /* UIView+Xibsetup.swift in Sources */,
 			);
