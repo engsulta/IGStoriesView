@@ -5,7 +5,7 @@
 //  Created by Ahmed Sultan on 10/6/20.
 //  Copyright © 2020 hamza. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 class IGAddStoryCollectionViewCell: IGStoriesCollectionViewCell {
@@ -17,3 +17,4 @@ class IGAddStoryCollectionViewCell: IGStoriesCollectionViewCell {
     }
 
 }
+#endif

@@ -5,7 +5,7 @@
 //  Created by Ahmed Sultan on 10/6/20.
 //  Copyright © 2020 hamza. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 class InstagramBorder: UIView {
@@ -72,3 +72,4 @@ class InstagramBorder: UIView {
         return [CGPoint(x:1,y:1),CGPoint(x:0,y:1),CGPoint.zero,CGPoint(x:1,y:0)]
     }
 }
+#endif

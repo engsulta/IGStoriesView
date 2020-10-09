@@ -4,7 +4,7 @@
 //
 //  Created by Ahmed Sultan on 10/6/20.
 //
-
+#if canImport(UIKit)
 import UIKit
 extension IGStoriesCardView {
     func loadViewFromNib(nibName: String, in bundle: Bundle? = nil) -> UIView? {
@@ -19,3 +19,4 @@ extension IGStoriesCardView {
         addSubview(contentView)
     }
 }
+#endif

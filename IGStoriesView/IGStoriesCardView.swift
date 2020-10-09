@@ -5,7 +5,7 @@
 //  Created by Ahmed Sultan on 10/6/20.
 //  Copyright © 2020 hamza. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public protocol IGStoriesCollectionViewActionsDelegate: class {
@@ -109,3 +109,4 @@ extension IGStoriesCardView: UICollectionViewDelegate {
         delegate?.collectionView(collectionView, didSelect: storiesViewModels[indexPath.row].userId)
     }
 }
+#endif

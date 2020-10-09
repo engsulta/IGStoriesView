@@ -6,7 +6,7 @@
 //  Copyright © 2020 hamza. All rights reserved.
 //
 
-import Foundation
+#if canImport(UIKit)
 import UIKit
 
 @IBDesignable
@@ -82,3 +82,4 @@ extension IGRoundedView {
         }
     }
 }
+#endif
