@@ -40,7 +40,7 @@ public class IGStoriesCardView: UIView {
     let addStoryCellNibName = "IGAddStoryCollectionViewCell"
     let storiesCellId = "storiesCellId"
     let addStoryCellId = "addStoryCellId"
-    weak var delegate: IGStoriesCollectionViewActionsDelegate?
+    public weak var delegate: IGStoriesCollectionViewActionsDelegate?
     var didOpenUserStory: ((Int64?) -> Void)?
 
     public var storiesViewModels: [IGStoriesViewModel] = [] {
@@ -60,8 +60,9 @@ public class IGStoriesCardView: UIView {
     func setupStoriesCollectionView () {
         storiesCollectionView?.delegate = self
         storiesCollectionView?.dataSource = self
-        let storiesCell = UINib(nibName: storiesCellNibName, bundle: Bundle.main)
-        let addStoryCell = UINib(nibName: addStoryCellNibName, bundle: Bundle.main)
+        let bundle = Bundle(for: type(of: self))
+        let storiesCell = UINib(nibName: storiesCellNibName, bundle: bundle)
+        let addStoryCell = UINib(nibName: addStoryCellNibName, bundle: bundle)
 
         storiesCollectionView?.register(
             storiesCell,
