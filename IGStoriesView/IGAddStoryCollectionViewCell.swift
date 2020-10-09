@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddStoryCollectionViewCell: StoriesCollectionViewCell {
+class IGAddStoryCollectionViewCell: IGStoriesCollectionViewCell {
 
     @IBOutlet weak var plusView: IGRoundedView!
    

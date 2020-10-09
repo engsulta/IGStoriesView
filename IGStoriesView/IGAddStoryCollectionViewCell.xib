@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="AddStoryCollectionViewCell" customModule="ExampleApp" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="IGAddStoryCollectionViewCell" customModule="ExampleApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -41,7 +41,6 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="gradeintEndColor">
                                         <color key="value" systemColor="systemOrangeColor"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="profile"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="imageBorderShift">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
@@ -116,7 +115,6 @@
     </objects>
     <resources>
         <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="profile" width="694" height="794"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

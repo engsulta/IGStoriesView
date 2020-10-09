@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="StoriesCollectionViewCell" customModule="R_D" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="IGStoriesCollectionViewCell" customModule="ExampleApp" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -20,7 +20,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ol-XN-ARe">
                         <rect key="frame" x="0.0" y="0.0" width="90" height="120"/>
                         <subviews>
-                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpB-R4-zKd" customClass="IGRoundedView" customModule="R_D" customModuleProvider="target">
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpB-R4-zKd" customClass="IGRoundedView" customModule="ExampleApp" customModuleProvider="target">
                                 <rect key="frame" x="7.5" y="8" width="75" height="75"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -40,7 +40,6 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="gradeintEndColor">
                                         <color key="value" systemColor="systemOrangeColor"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ahmed"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="imageBorderShift">
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
@@ -82,7 +81,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="ahmed" width="2837" height="3782"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -24,8 +24,8 @@ public class IGStoriesCardView: UIView {
     @IBOutlet weak var storiesCollectionView: UICollectionView!
     @IBOutlet var contentView: UIView!
     let nibName = "IGStoriesCardView"
-    let storiesCellNibName = "StoriesCollectionViewCell"
-    let addStoryCellNibName = "AddStoryCollectionViewCell"
+    let storiesCellNibName = "IGStoriesCollectionViewCell"
+    let addStoryCellNibName = "IGAddStoryCollectionViewCell"
     let storiesCellId = "storiesCellId"
     let addStoryCellId = "addStoryCellId"
     weak var delegate: StoriesCollectionViewActionsDelegate?
@@ -89,14 +89,14 @@ extension IGStoriesCardView: UICollectionViewDataSource {
         if indexPath.row != 0 {
         guard let cell = collectionView.dequeueReusableCell(
                 withReuseIdentifier: storiesCellId,
-                for: indexPath) as? StoriesCollectionViewCell else { return UICollectionViewCell() }
+                for: indexPath) as? IGStoriesCollectionViewCell else { return UICollectionViewCell() }
             cell.viewModel = storiesViewModels[indexPath.row]
 
             return cell
         }else {
             guard let cell = collectionView.dequeueReusableCell(
                     withReuseIdentifier: addStoryCellId,
-                    for: indexPath) as? AddStoryCollectionViewCell else { return UICollectionViewCell() }
+                    for: indexPath) as? IGAddStoryCollectionViewCell else { return UICollectionViewCell() }
             cell.viewModel = storiesViewModels[indexPath.row]
             return cell
         }

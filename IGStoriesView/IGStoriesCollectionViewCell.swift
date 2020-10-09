@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StoriesCollectionViewCell: UICollectionViewCell {
+class IGStoriesCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var roundedView: IGRoundedView!
     @IBOutlet weak var storyOwnerName: UILabel!
