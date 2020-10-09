@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  StoriesExample
+//  ExampleApp
 //
-//  Created by Ahmed Sultan on 10/6/20.
+//  Created by Ahmed Sultan on 10/9/20.
 //
 
 import UIKit
