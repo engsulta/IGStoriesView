@@ -8,11 +8,11 @@
 #if canImport(UIKit)
 import UIKit
 
-class IGAddStoryCollectionViewCell: IGStoriesCollectionViewCell {
+public class IGAddStoryCollectionViewCell: IGStoriesCollectionViewCell {
 
     @IBOutlet weak var plusView: IGRoundedView!
-   
-    override func awakeFromNib() {
+
+    public override func awakeFromNib() {
         super.awakeFromNib()
     }
 

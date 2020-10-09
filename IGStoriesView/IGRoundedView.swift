@@ -10,20 +10,20 @@
 import UIKit
 
 @IBDesignable
-class IGRoundedView: UIView {
+public class IGRoundedView: UIView {
 
-    @IBInspectable var borderWidth: CGFloat = 0
-    @IBInspectable var imageBorderShift: CGFloat = 0
-    @IBInspectable var borderColor: UIColor = .clear
-    @IBInspectable var gradeintStartColor: UIColor = .clear
-    @IBInspectable var gradeintEndColor: UIColor = .clear
-    @IBInspectable var image: UIImage? = nil {
+    @IBInspectable public var borderWidth: CGFloat = 0
+    @IBInspectable public var imageBorderShift: CGFloat = 0
+    @IBInspectable public var borderColor: UIColor = .clear
+    @IBInspectable public var gradeintStartColor: UIColor = .clear
+    @IBInspectable public var gradeintEndColor: UIColor = .clear
+    @IBInspectable public var image: UIImage? = nil {
         didSet {
             imageView.image = image
         }
     }
     
-    lazy var imageView: UIImageView = {
+    lazy public var imageView: UIImageView = {
         let iv = UIImageView()
         iv.layer.borderWidth = borderWidth
         iv.layer.borderColor = borderColor.cgColor
@@ -31,21 +31,21 @@ class IGRoundedView: UIView {
         return iv
     }()
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         clipsToBounds = true
         backgroundColor = .clear
         addSubview(imageView)
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         clipsToBounds = true
         backgroundColor = .clear
         addSubview(imageView)
     }
 
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
 
         let gradient = CAGradientLayer()
@@ -72,7 +72,7 @@ class IGRoundedView: UIView {
 }
 
 extension IGRoundedView {
-    func enableBorder(enabled: Bool = true) {
+    public func enableBorder(enabled: Bool = true) {
         if enabled {
             layer.borderColor = UIColor.clear.cgColor
             layer.borderWidth = 0

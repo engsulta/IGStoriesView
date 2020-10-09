@@ -17,6 +17,18 @@ public struct IGStoriesViewModel {
     var name: String?
     var isSeen: Bool?
     var userId: String?
+    public init(
+        image: String?,
+        name: String?,
+        isSeen: Bool?,
+        userId: String?
+    ) {
+        self.image = image
+        self.name = name
+        self.isSeen = isSeen
+        self.userId = userId
+
+    }
 }
 
 public class IGStoriesCardView: UIView {
@@ -61,7 +73,7 @@ public class IGStoriesCardView: UIView {
 
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         xibSetup()
     }

@@ -8,7 +8,7 @@
 #if canImport(UIKit)
 import UIKit
 
-class IGStoriesCollectionViewCell: UICollectionViewCell {
+public class IGStoriesCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var roundedView: IGRoundedView!
     @IBOutlet weak var storyOwnerName: UILabel!
@@ -23,7 +23,7 @@ class IGStoriesCollectionViewCell: UICollectionViewCell {
         }
     }
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
     }
 }
